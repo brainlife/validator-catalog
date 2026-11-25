@@ -1,0 +1,8 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=1
+#PBS -l vmem=2gb
+#PBS -l walltime=00:30:00
+
+# brainlife runs this in the validator task directory (config.json is here).
+set -e
+singularity exec -e docker://python:3.12-slim "$(dirname "$0")/validate.py"

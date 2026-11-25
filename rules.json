@@ -1,0 +1,2549 @@
+{
+ "58c33bcee13a50849b25879a": {
+  "files": [
+   {
+    "filename": "t1.nii.gz",
+    "id": "t1",
+    "required": true
+   }
+  ],
+  "name": "neuro/anat/t1w"
+ },
+ "58c33c5fe13a50849b25879b": {
+  "files": [
+   {
+    "filename": "dwi.nii.gz",
+    "id": "dwi",
+    "required": true
+   },
+   {
+    "filename": "dwi.bvecs",
+    "id": "bvecs",
+    "required": true
+   },
+   {
+    "filename": "dwi.bvals",
+    "id": "bvals",
+    "required": true
+   },
+   {
+    "filename": "sbref.nii.gz",
+    "id": "sbref",
+    "required": false
+   },
+   {
+    "filename": "sbref.json",
+    "id": "sbref_json",
+    "required": false
+   }
+  ],
+  "name": "neuro/dwi"
+ },
+ "58cb22c8e13a50849b25882e": {
+  "files": [
+   {
+    "dirname": "output",
+    "id": "output",
+    "required": true
+   }
+  ],
+  "name": "neuro/freesurfer"
+ },
+ "58cb234be13a50849b25882f": {
+  "files": [
+   {
+    "dirname": ".",
+    "id": "output",
+    "required": true
+   }
+  ],
+  "name": "neuro/dtiinit"
+ },
+ "58d15eaee13a50849b258844": {
+  "files": [
+   {
+    "filename": "output_fe.mat",
+    "id": "fe",
+    "required": true
+   },
+   {
+    "filename": "life_results.json",
+    "id": "life_results",
+    "required": true
+   },
+   {
+    "dirname": "tracts",
+    "id": "tracts",
+    "required": true
+   }
+  ],
+  "name": "neuro/LiFE"
+ },
+ "58e6e21e6cd4e826de4537ee": {
+  "files": [
+   {
+    "dirname": "output",
+    "id": "output",
+    "required": true
+   },
+   {
+    "dirname": "roipairs",
+    "id": "roipairs",
+    "required": true
+   },
+   {
+    "dirname": "surfaces",
+    "id": "surfaces",
+    "required": true
+   },
+   {
+    "filename": "labels.json",
+    "id": "labels",
+    "required": true
+   }
+  ],
+  "name": "neuro/networkneuro"
+ },
+ "58f10a90436ee50ffd9063c5": {
+  "files": [
+   {
+    "filename": "output.mat",
+    "id": "output",
+    "required": true
+   },
+   {
+    "filename": "output_fibercounts.txt",
+    "id": "fibercounts",
+    "required": false
+   },
+   {
+    "dirname": "tracts",
+    "id": "tracts",
+    "required": false
+   },
+   {
+    "dirname": "surfaces",
+    "id": "surfaces",
+    "required": false
+   }
+  ],
+  "name": "neuro/wmc-deprecated"
+ },
+ "5907d922436ee50ffde9c549": {
+  "files": [
+   {
+    "filename": "track.tck",
+    "id": "track",
+    "required": true
+   }
+  ],
+  "name": "neuro/track/tck"
+ },
+ "592dded1436ee50ffd88f5d0": {
+  "files": [
+   {
+    "dirname": "masks",
+    "id": "masks",
+    "required": true
+   }
+  ],
+  "name": "neuro/tractmasks"
+ },
+ "59307a08436ee50ffd973278": {
+  "files": [
+   {
+    "dirname": "surfaces",
+    "id": "surfaces",
+    "required": true
+   }
+  ],
+  "name": "neuro/3Dsurfaces"
+ },
+ "59399b95436ee50ffdc08381": {
+  "files": [
+   {
+    "filename": "spectrum.json",
+    "id": "spectrum",
+    "required": true
+   },
+   {
+    "filename": "eigenvectors.mat",
+    "id": "eigenvectors",
+    "required": false
+   }
+  ],
+  "name": "neuro/laplace_beltrami_spectrum"
+ },
+ "59494478fa1d2e5a1ffd23b4": {
+  "files": [
+   {
+    "filename": "peaks.pam5",
+    "id": "peaks",
+    "required": true
+   }
+  ],
+  "name": "neuro/peaks_and_metrics"
+ },
+ "594c0325fa1d2e5a1f0beda5": {
+  "files": [
+   {
+    "filename": "t2.nii.gz",
+    "id": "t2",
+    "required": true
+   }
+  ],
+  "name": "neuro/anat/t2w"
+ },
+ "594c688bfa1d2e5a1f0e33f1": {
+  "files": [
+   {
+    "filename": "out.json",
+    "id": "output",
+    "required": true
+   }
+  ],
+  "name": "neuro/conneval"
+ },
+ "5965467cb09297d8d81bdbcd": {
+  "files": [
+   {
+    "dirname": "profiles",
+    "id": "profiles",
+    "required": true
+   }
+  ],
+  "name": "neuro/tractprofile-deprecated"
+ },
+ "59666a40b09297d8d8271dfc": {
+  "files": [
+   {
+    "filename": "image.png",
+    "id": "image",
+    "required": true
+   }
+  ],
+  "name": "generic/image/png"
+ },
+ "5967b799b09297d8d831709e": {
+  "files": [
+   {
+    "filename": "images.json",
+    "id": "images_json",
+    "required": true
+   },
+   {
+    "dirname": "images",
+    "id": "images",
+    "required": true
+   }
+  ],
+  "name": "generic/images"
+ },
+ "5978fd38b09297d8d8aa8746": {
+  "files": [
+   {
+    "filename": "ave.fif",
+    "id": "evoked",
+    "required": true
+   }
+  ],
+  "name": "neuro/meeg/mne/evoked"
+ },
+ "599f305ad1f46fec1759f363": {
+  "files": [
+   {
+    "filename": "tractmeasures.csv",
+    "id": "csv",
+    "required": true
+   }
+  ],
+  "name": "neuro/tractmeasures"
+ },
+ "59b685a08e5d38b0b331ddc5": {
+  "files": [
+   {
+    "filename": "bold.nii.gz",
+    "id": "bold",
+    "required": true
+   },
+   {
+    "filename": "events.tsv",
+    "id": "events",
+    "required": false
+   },
+   {
+    "filename": "events.json",
+    "id": "events_json",
+    "required": false
+   },
+   {
+    "filename": "sbref.nii.gz",
+    "id": "sbref",
+    "required": false
+   },
+   {
+    "filename": "sbref.json",
+    "id": "sbref_json",
+    "required": false
+   },
+   {
+    "filename": "physio.tsv.gz",
+    "id": "physio",
+    "required": false
+   },
+   {
+    "filename": "physio.json",
+    "id": "physio_json",
+    "required": false
+   }
+  ],
+  "name": "neuro/func/task"
+ },
+ "59bbfadd6b956e1c2ae89ef3": {
+  "files": [
+   {
+    "dirname": "template",
+    "id": "template",
+    "required": true
+   },
+   {
+    "dirname": "timepoints",
+    "id": "timepoints",
+    "required": true
+   }
+  ],
+  "name": "neuro/freesurfer/longitudinal-template"
+ },
+ "59c3eae633fc1cf9ead71679": {
+  "files": [
+   {
+    "dirname": ".",
+    "id": "output",
+    "required": true
+   }
+  ],
+  "name": "raw"
+ },
+ "5a04b08b2c214c9ba8033391": {
+  "files": [
+   {
+    "filename": "response.txt",
+    "id": "response",
+    "required": true
+   },
+   {
+    "filename": "fa.nii.gz",
+    "id": "fa",
+    "required": true
+   },
+   {
+    "filename": "dt.nii.gz",
+    "id": "dt",
+    "required": true
+   },
+   {
+    "filename": "whitematter.nii.gz",
+    "id": "wm",
+    "required": true
+   },
+   {
+    "filename": "brainmask.nii.gz",
+    "id": "brainmask",
+    "required": true
+   },
+   {
+    "filename": "csd.nii.gz",
+    "id": "csd",
+    "required": true
+   }
+  ],
+  "name": "neuro/recon"
+ },
+ "5a281aee2c214c9ba83ce620": {
+  "files": [
+   {
+    "filename": "mask.nii.gz",
+    "id": "mask",
+    "required": true
+   }
+  ],
+  "name": "neuro/mask"
+ },
+ "5a79df48d071a1753f1d661b": {
+  "files": [
+   {
+    "filename": "fa.nii.gz",
+    "id": "fa",
+    "required": true
+   },
+   {
+    "filename": "md.nii.gz",
+    "id": "md",
+    "required": true
+   },
+   {
+    "filename": "rd.nii.gz",
+    "id": "rd",
+    "required": true
+   },
+   {
+    "filename": "ad.nii.gz",
+    "id": "ad",
+    "required": true
+   },
+   {
+    "filename": "cl.nii.gz",
+    "id": "cl",
+    "required": false
+   },
+   {
+    "filename": "cp.nii.gz",
+    "id": "cp",
+    "required": false
+   },
+   {
+    "filename": "cs.nii.gz",
+    "id": "cs",
+    "required": false
+   },
+   {
+    "filename": "tensors.nii.gz",
+    "id": "tensors",
+    "required": false
+   },
+   {
+    "filename": "kurtosis.nii.gz",
+    "id": "kurtosis",
+    "required": false
+   },
+   {
+    "filename": "ga.nii.gz",
+    "id": "ga",
+    "required": false
+   },
+   {
+    "filename": "mk.nii.gz",
+    "id": "mk",
+    "required": false
+   },
+   {
+    "filename": "ak.nii.gz",
+    "id": "ak",
+    "required": false
+   },
+   {
+    "filename": "rk.nii.gz",
+    "id": "rk",
+    "required": false
+   },
+   {
+    "filename": "rgb.nii.gz",
+    "id": "rgb",
+    "required": false
+   }
+  ],
+  "name": "neuro/tensor"
+ },
+ "5ace14a0d071a1753fada7a4": {
+  "files": [
+   {
+    "filename": "afq.mat",
+    "id": "afq",
+    "required": true
+   }
+  ],
+  "name": "neuro/AFQ"
+ },
+ "5afb21465858d874a4b393a1": {
+  "files": [
+   {
+    "filename": "cov.fif",
+    "id": "cov",
+    "required": true
+   }
+  ],
+  "name": "neuro/meeg/mne/covariance"
+ },
+ "5afc7c555858d874a40c6dda": {
+  "files": [
+   {
+    "filename": "stim.nii.gz",
+    "id": "stim",
+    "required": true
+   }
+  ],
+  "name": "neuro/stimulus"
+ },
+ "5afe38b15858d874a48650a6": {
+  "files": [
+   {
+    "filename": "fe_optimal.mat",
+    "id": "fe_optimal",
+    "required": true
+   },
+   {
+    "filename": "info.mat",
+    "id": "info",
+    "required": true
+   }
+  ],
+  "name": "neuro/dp/optimal"
+ },
+ "5b3abb88d7b3f1e24e431321": {
+  "files": [
+   {
+    "dirname": "output",
+    "id": "hcp_freesurferpre",
+    "required": true
+   }
+  ],
+  "name": "neuro/hcp/freesurferpre"
+ },
+ "5b956f6cd7b3f1e24e9121ce": {
+  "files": [
+   {
+    "filename": "track.trk",
+    "id": "track",
+    "required": true
+   }
+  ],
+  "name": "neuro/track/trk"
+ },
+ "5bbfb28071454db2a890fbce": {
+  "files": [
+   {
+    "filename": "warp.nii.gz",
+    "id": "warp",
+    "required": false
+   },
+   {
+    "filename": "inverse-warp.nii.gz",
+    "id": "inverse-warp",
+    "required": false
+   },
+   {
+    "filename": "affine.txt",
+    "id": "affine",
+    "required": false
+   }
+  ],
+  "name": "neuro/transform/nifti"
+ },
+ "5bd77a8615a8683a39440dab": {
+  "files": [
+   {
+    "filename": "dir.nii.gz",
+    "id": "dir",
+    "required": true
+   },
+   {
+    "filename": "icvf.nii.gz",
+    "id": "icvf",
+    "required": true
+   },
+   {
+    "filename": "isovf.nii.gz",
+    "id": "isovf",
+    "required": true
+   },
+   {
+    "filename": "od.nii.gz",
+    "id": "od",
+    "required": true
+   }
+  ],
+  "name": "neuro/noddi-deprecated"
+ },
+ "5be9ea0315a8683a39a1ebd9": {
+  "files": [
+   {
+    "dirname": "rois",
+    "id": "rois",
+    "required": true
+   },
+   {
+    "filename": "label.json",
+    "id": "label",
+    "required": false
+   }
+  ],
+  "name": "neuro/rois"
+ },
+ "5c1a7489f9109beac4a88a1f": {
+  "files": [
+   {
+    "filename": "parc.nii.gz",
+    "id": "parc",
+    "required": true
+   },
+   {
+    "filename": "key.txt",
+    "id": "key",
+    "required": false
+   },
+   {
+    "filename": "label.json",
+    "id": "label",
+    "required": true
+   }
+  ],
+  "name": "neuro/parcellation/volume"
+ },
+ "5c390505f9109beac42b00df": {
+  "files": [
+   {
+    "filename": "phasediff.nii.gz",
+    "id": "phasediff",
+    "required": false
+   },
+   {
+    "filename": "phasediff.json",
+    "id": "phasediff_json",
+    "required": false
+   },
+   {
+    "filename": "magnitude.nii.gz",
+    "id": "magnitude",
+    "required": false
+   },
+   {
+    "filename": "magnitude.json",
+    "id": "magnitude_json",
+    "required": false
+   },
+   {
+    "filename": "magnitude1.nii.gz",
+    "id": "magnitude1",
+    "required": false
+   },
+   {
+    "filename": "magnitude1.json",
+    "id": "magnitude1_json",
+    "required": false
+   },
+   {
+    "filename": "magnitude2.nii.gz",
+    "id": "magnitude2",
+    "required": false
+   },
+   {
+    "filename": "magnitude2.json",
+    "id": "magnitude2_json",
+    "required": false
+   },
+   {
+    "filename": "fieldmap.nii.gz",
+    "id": "fieldmap",
+    "required": false
+   },
+   {
+    "filename": "fieldmap.json",
+    "id": "fieldmap_json",
+    "required": false
+   },
+   {
+    "filename": "phase1.nii.gz",
+    "id": "phase1",
+    "required": false
+   },
+   {
+    "filename": "phase1.json",
+    "id": "phase1_json",
+    "required": false
+   },
+   {
+    "filename": "phase2.nii.gz",
+    "id": "phase2",
+    "required": false
+   },
+   {
+    "filename": "phase2.json",
+    "id": "phase2_json",
+    "required": false
+   },
+   {
+    "filename": "epi1.nii.gz",
+    "id": "epi1",
+    "required": false
+   },
+   {
+    "filename": "epi1.json",
+    "id": "epi1_json",
+    "required": false
+   },
+   {
+    "filename": "epi2.nii.gz",
+    "id": "epi2",
+    "required": false
+   },
+   {
+    "filename": "epi2.json",
+    "id": "epi2_json",
+    "required": false
+   }
+  ],
+  "name": "neuro/fmap"
+ },
+ "5c478b7bf9109beac4520be6": {
+  "files": [
+   {
+    "filename": "lh.parc.annot.gii",
+    "id": "lh_annot",
+    "required": true
+   },
+   {
+    "filename": "rh.parc.annot.gii",
+    "id": "rh_annot",
+    "required": true
+   },
+   {
+    "filename": "lh.parc.inflated.gii",
+    "id": "lh_inflated_surf",
+    "required": true
+   },
+   {
+    "filename": "rh.parc.inflated.gii",
+    "id": "rh_inflated_surf",
+    "required": true
+   },
+   {
+    "filename": "lh.parc.pial.gii",
+    "id": "lh_pial_surf",
+    "required": true
+   },
+   {
+    "filename": "rh.parc.pial.gii",
+    "id": "rh_pial_surf",
+    "required": true
+   },
+   {
+    "filename": "lh.parc.white.gii",
+    "id": "lh_white_surf",
+    "required": true
+   },
+   {
+    "filename": "rh.parc.white.gii",
+    "id": "rh_white_surf",
+    "required": true
+   },
+   {
+    "filename": "key.txt",
+    "id": "key",
+    "required": false
+   },
+   {
+    "filename": "label.json",
+    "id": "label",
+    "required": true
+   }
+  ],
+  "name": "neuro/parcellation/surface-deprecated"
+ },
+ "5c4f6a8af9109beac4b3dae0": {
+  "files": [
+   {
+    "filename": "regressors.tsv",
+    "id": "regressors",
+    "required": true
+   },
+   {
+    "filename": "regressors.json",
+    "id": "json",
+    "required": false
+   }
+  ],
+  "name": "neuro/regressors"
+ },
+ "5c536bf0f9109beac46adb45": {
+  "files": [
+   {
+    "filename": "response.txt",
+    "id": "response",
+    "required": true
+   },
+   {
+    "filename": "lmax2.nii.gz",
+    "id": "lmax2",
+    "required": false
+   },
+   {
+    "filename": "lmax4.nii.gz",
+    "id": "lmax4",
+    "required": false
+   },
+   {
+    "filename": "lmax6.nii.gz",
+    "id": "lmax6",
+    "required": false
+   },
+   {
+    "filename": "lmax8.nii.gz",
+    "id": "lmax8",
+    "required": false
+   },
+   {
+    "filename": "lmax10.nii.gz",
+    "id": "lmax10",
+    "required": false
+   },
+   {
+    "filename": "lmax12.nii.gz",
+    "id": "lmax12",
+    "required": false
+   },
+   {
+    "filename": "lmax14.nii.gz",
+    "id": "lmax14",
+    "required": false
+   }
+  ],
+  "name": "neuro/csd"
+ },
+ "5c58aa5ef9109beac4b52f61": {
+  "files": [
+   {
+    "dirname": "cortexmap",
+    "id": "cortexmap",
+    "required": true
+   }
+  ],
+  "name": "neuro/cortexmap"
+ },
+ "5c9276dc44947d8aea7d6454": {
+  "files": [
+   {
+    "filename": "peaks.nii.gz",
+    "id": "peaks",
+    "required": true
+   }
+  ],
+  "name": "neuro/peaks"
+ },
+ "5cb7711c44947d8aea8cb4f4": {
+  "files": [
+   {
+    "filename": "image.svg",
+    "id": "image",
+    "required": true
+   }
+  ],
+  "name": "generic/image/svg"
+ },
+ "5cc1d64c44947d8aea6b2d8b": {
+  "files": [
+   {
+    "filename": "classification.mat",
+    "id": "classification",
+    "required": true
+   },
+   {
+    "dirname": "tracts",
+    "id": "tracts",
+    "required": false
+   },
+   {
+    "dirname": "surfaces",
+    "id": "surfaces",
+    "required": false
+   }
+  ],
+  "name": "neuro/wmc"
+ },
+ "5ced859744947d8aeaa4add7": {
+  "files": [
+   {
+    "filename": "weights.npz",
+    "id": "npz",
+    "required": true
+   },
+   {
+    "filename": "Hyperparameters.txt",
+    "id": "hparam",
+    "required": true
+   }
+  ],
+  "name": "model/pytorch-weights"
+ },
+ "5ced86fe44947d8aeaa53d71": {
+  "files": [
+   {
+    "filename": "model.pickle",
+    "id": "model",
+    "required": true
+   }
+  ],
+  "name": "model/classifyber"
+ },
+ "5d34d9f744947d8aea0e0d2f": {
+  "files": [
+   {
+    "filename": "index.json",
+    "id": "index",
+    "required": true
+   },
+   {
+    "filename": "label.json",
+    "id": "label",
+    "required": true
+   },
+   {
+    "dirname": "csv",
+    "id": "csv",
+    "required": true
+   }
+  ],
+  "name": "neuro/conmat"
+ },
+ "5d62f38749e403160c93f96a": {
+  "files": [
+   {
+    "filename": "aoi_data.csv",
+    "id": "aoi_data",
+    "required": true
+   },
+   {
+    "filename": "aoi_regions.csv",
+    "id": "aoi_regions",
+    "required": false
+   },
+   {
+    "filename": "datasets.csv",
+    "id": "datasets",
+    "required": true
+   },
+   {
+    "filename": "subjects.csv",
+    "id": "subjects",
+    "required": true
+   },
+   {
+    "filename": "trials.csv",
+    "id": "trials",
+    "required": true
+   },
+   {
+    "filename": "xy_data.csv",
+    "id": "xy_data",
+    "required": false
+   }
+  ],
+  "name": "behavior/eyetracking/peekbank"
+ },
+ "5d7055105cee3829d5314c19": {
+  "files": [
+   {
+    "filename": "lancet_dictionary.csv",
+    "id": "dictionary",
+    "required": true
+   },
+   {
+    "filename": "open-old.csv",
+    "id": "open-old",
+    "required": true
+   },
+   {
+    "filename": "open_science_journal.csv",
+    "id": "journal",
+    "required": true
+   },
+   {
+    "filename": "repro-old.csv",
+    "id": "repro-old",
+    "required": true
+   }
+  ],
+  "name": "openscience/reprolit"
+ },
+ "5d9cf81c0eed545f51bf75df": {
+  "files": [
+   {
+    "filename": "flair.nii.gz",
+    "id": "flair",
+    "required": true
+   }
+  ],
+  "name": "neuro/anat/flair"
+ },
+ "5d9d18d8e30ae43bb0612715": {
+  "files": [
+   {
+    "filename": "r2.nii.gz",
+    "id": "r2",
+    "required": false
+   },
+   {
+    "filename": "polarAngle.nii.gz",
+    "id": "polarAngle",
+    "required": true
+   },
+   {
+    "filename": "eccentricity.nii.gz",
+    "id": "eccentricity",
+    "required": true
+   },
+   {
+    "filename": "rfWidth.nii.gz",
+    "id": "rfWidth",
+    "required": true
+   },
+   {
+    "filename": "varea.nii.gz",
+    "id": "varea",
+    "required": false
+   },
+   {
+    "dirname": "surfaces",
+    "id": "surfaces",
+    "required": true
+   },
+   {
+    "dirname": "prf_surfaces",
+    "id": "prf_surfaces",
+    "required": false
+   }
+  ],
+  "name": "neuro/prf"
+ },
+ "5db8b3a18aeeee1cbbf30a20": {
+  "files": [
+   {
+    "filename": "eyetrack.asc",
+    "id": "eyetrack",
+    "required": true
+   }
+  ],
+  "name": "eyetrack/asc"
+ },
+ "5dcecaffc4ae284155298383": {
+  "files": [
+   {
+    "filename": "weights.csv",
+    "id": "weights",
+    "required": false
+   }
+  ],
+  "name": "neuro/streamline-weights"
+ },
+ "5dcf0047c4ae28d7f2298f48": {
+  "files": [
+   {
+    "dirname": "tcks",
+    "id": "tcks",
+    "required": true
+   },
+   {
+    "filename": "tcks.json",
+    "id": "tcks_json",
+    "required": true
+   }
+  ],
+  "name": "neuro/tcks"
+ },
+ "5ddf1381936ca39318c5f045": {
+  "files": [
+   {
+    "filename": "dwi.nii.gz",
+    "id": "dwi",
+    "required": true
+   },
+   {
+    "filename": "dwi.bvecs",
+    "id": "bvecs",
+    "required": true
+   },
+   {
+    "filename": "dwi.bvals",
+    "id": "bvals",
+    "required": true
+   }
+  ],
+  "name": "neuro/dwi/b0"
+ },
+ "5dec20ff6c0bd9f84485779f": {
+  "files": [
+   {
+    "filename": "eeg",
+    "id": "egi",
+    "required": true
+   },
+   {
+    "filename": "eeg.json",
+    "id": "eeg_json",
+    "required": false
+   },
+   {
+    "filename": "channels.tsv",
+    "id": "channels",
+    "required": false
+   },
+   {
+    "filename": "events.tsv",
+    "id": "events",
+    "required": false
+   }
+  ],
+  "name": "neuro/eeg/egi"
+ },
+ "5e4c47041eafffca2efa3545": {
+  "files": [
+   {
+    "dirname": "ashs",
+    "id": "ashs",
+    "required": true
+   }
+  ],
+  "name": "neuro/ashs"
+ },
+ "5e56dc330f7fa604cc3cc291": {
+  "files": [
+   {
+    "filename": "index.html",
+    "id": "index",
+    "required": false
+   },
+   {
+    "dirname": "html",
+    "id": "html",
+    "required": true
+   }
+  ],
+  "name": "report/html"
+ },
+ "5e767ddcde643b260e2a8a52": {
+  "files": [
+   {
+    "dirname": "output",
+    "id": "output",
+    "required": true
+   }
+  ],
+  "name": "neuro/hcp/freesurferpost"
+ },
+ "5ebe0bbbb969982124072325": {
+  "files": [
+   {
+    "filename": "OS_raw.csv",
+    "id": "os_raw",
+    "required": true
+   },
+   {
+    "filename": "OS_centroid.csv",
+    "id": "os_centroid",
+    "required": true
+   },
+   {
+    "filename": "OD_raw.csv",
+    "id": "od_raw",
+    "required": true
+   },
+   {
+    "filename": "OD_centroid.csv",
+    "id": "od_centroid",
+    "required": true
+   }
+  ],
+  "name": "optometry/oct"
+ },
+ "5ed02a620a8ed8e39c482a61": {
+  "files": [
+   {
+    "filename": "dir.nii.gz",
+    "id": "dir",
+    "required": true
+   },
+   {
+    "filename": "ndi.nii.gz",
+    "id": "ndi",
+    "required": true
+   },
+   {
+    "filename": "isovf.nii.gz",
+    "id": "isovf",
+    "required": true
+   },
+   {
+    "filename": "odi.nii.gz",
+    "id": "odi",
+    "required": true
+   }
+  ],
+  "name": "neuro/noddi"
+ },
+ "5ed0352de3f453b13b267dae": {
+  "files": [
+   {
+    "filename": "network.json.gz",
+    "id": "network",
+    "required": true
+   }
+  ],
+  "name": "generic/network"
+ },
+ "5ed53b69da664506f88e6df9": {
+  "files": [
+   {
+    "filename": "report.pdf",
+    "id": "pdf",
+    "required": true
+   }
+  ],
+  "name": "report/pdf"
+ },
+ "5ed834cdda66453cde8edfb7": {
+  "files": [
+   {
+    "filename": "timeseries.hdf5",
+    "id": "timeseries",
+    "required": true
+   },
+   {
+    "filename": "key.txt",
+    "id": "key",
+    "required": false
+   },
+   {
+    "filename": "label.json",
+    "id": "label",
+    "required": false
+   }
+  ],
+  "name": "generic/timeseries-deprecated"
+ },
+ "5edd3b77c5972b8c47b3a2c3": {
+  "files": [
+   {
+    "dirname": "parc-stats",
+    "id": "parc-stats",
+    "required": true
+   }
+  ],
+  "name": "neuro/parc-stats"
+ },
+ "5f5fa310aff27a5569361cf3": {
+  "files": [
+   {
+    "filename": "echo-1_bold.nii.gz",
+    "id": "echo1",
+    "required": true
+   },
+   {
+    "filename": "echo-2_bold.nii.gz",
+    "id": "echo2",
+    "required": true
+   },
+   {
+    "filename": "echo-3_bold.nii.gz",
+    "id": "echo3",
+    "required": false
+   },
+   {
+    "filename": "echo-4_bold.nii.gz",
+    "id": "echo4",
+    "required": false
+   },
+   {
+    "filename": "echo-5_bold.nii.gz",
+    "id": "echo5",
+    "required": false
+   },
+   {
+    "filename": "echo-6_bold.nii.gz",
+    "id": "echo6",
+    "required": false
+   }
+  ],
+  "name": "neuro/func/multiecho"
+ },
+ "5f6954c7cfa36577f4c96595": {
+  "files": [
+   {
+    "filename": "tt.gz",
+    "id": "tt",
+    "required": true
+   }
+  ],
+  "name": "neuro/dsistudio/tinytrack"
+ },
+ "5f6956d9cfa365c3dcc965ec": {
+  "files": [
+   {
+    "filename": "src.gz",
+    "id": "src",
+    "required": true
+   }
+  ],
+  "name": "neuro/dsistudio/src"
+ },
+ "5f6957e2cfa3659a64c96606": {
+  "files": [
+   {
+    "filename": "fib.gz",
+    "id": "fib",
+    "required": true
+   },
+   {
+    "filename": "inv.mapping.gz",
+    "id": "mapping",
+    "required": false
+   }
+  ],
+  "name": "neuro/dsistudio/fib"
+ },
+ "5f6a9c7ecfa365847cc9dc75": {
+  "files": [
+   {
+    "dirname": "tts",
+    "id": "tts",
+    "required": true
+   }
+  ],
+  "name": "neuro/dsistudio/tinytrack-s"
+ },
+ "5f6aa135cfa3656ab4c9e245": {
+  "files": [
+   {
+    "dirname": "tractmeasures",
+    "id": "tractmeasures",
+    "required": true
+   }
+  ],
+  "name": "neuro/dsistudio/tractmeasures"
+ },
+ "5f6bf981cfa36596f6ca7dd4": {
+  "files": [
+   {
+    "filename": "tractmeasure.tsv",
+    "id": "tractmeasure",
+    "required": true
+   }
+  ],
+  "name": "dsistudio/tractmeasure"
+ },
+ "5f78b255268f764bdd29b254": {
+  "files": [
+   {
+    "dirname": "right",
+    "id": "right",
+    "required": true
+   },
+   {
+    "dirname": "left",
+    "id": "left",
+    "required": true
+   }
+  ],
+  "name": "neuro/surface/vertices"
+ },
+ "5f78b377268f76598c29b27a": {
+  "files": [
+   {
+    "filename": "left.gii",
+    "id": "left",
+    "required": true
+   },
+   {
+    "filename": "right.gii",
+    "id": "right",
+    "required": true
+   },
+   {
+    "filename": "label.json",
+    "id": "label",
+    "required": false
+   }
+  ],
+  "name": "neuro/surface/data"
+ },
+ "5fa9a60cafcdcc57e2c444ad": {
+  "files": [
+   {
+    "filename": "cifti.nii",
+    "id": "cifti",
+    "required": true
+   }
+  ],
+  "name": "neuro/cifti"
+ },
+ "5fad54c27e8ecba2c3aa0c24": {
+  "files": [
+   {
+    "filename": "map.nii.gz",
+    "id": "map",
+    "required": true
+   }
+  ],
+  "name": "neuro/myelin-map"
+ },
+ "6000714baacf9e22a6a691c8": {
+  "files": [
+   {
+    "dirname": "meg.ds",
+    "id": "ds",
+    "required": true
+   },
+   {
+    "filename": "headshape.pos",
+    "id": "headshape",
+    "required": false
+   },
+   {
+    "filename": "channels.tsv",
+    "id": "channels",
+    "required": false
+   },
+   {
+    "filename": "coordsystem.json",
+    "id": "coordsystem",
+    "required": false
+   },
+   {
+    "filename": "events.tsv",
+    "id": "events",
+    "required": false
+   },
+   {
+    "filename": "events.json",
+    "id": "events_json",
+    "required": false
+   },
+   {
+    "filename": "meg.json",
+    "id": "meg_json",
+    "required": false
+   }
+  ],
+  "name": "neuro/meg/ctf"
+ },
+ "6000737faacf9ee51fa691cb": {
+  "files": [
+   {
+    "filename": "meg.fif",
+    "id": "fif",
+    "required": true
+   },
+   {
+    "filename": "channels.tsv",
+    "id": "channels",
+    "required": false
+   },
+   {
+    "filename": "headshape.pos",
+    "id": "headshape",
+    "required": false
+   },
+   {
+    "filename": "coordsystem.json",
+    "id": "coordsystem",
+    "required": false
+   },
+   {
+    "filename": "calibration_meg.dat",
+    "id": "calibration",
+    "required": false
+   },
+   {
+    "filename": "crosstalk_meg.fif",
+    "id": "crosstalk",
+    "required": false
+   },
+   {
+    "filename": "destination.fif",
+    "id": "destination",
+    "required": false
+   },
+   {
+    "filename": "events.tsv",
+    "id": "events",
+    "required": false
+   },
+   {
+    "filename": "events.json",
+    "id": "events_json",
+    "required": false
+   },
+   {
+    "filename": "meg.json",
+    "id": "meg_json",
+    "required": false
+   }
+  ],
+  "name": "neuro/meg/fif"
+ },
+ "60007410aacf9e4edda691d4": {
+  "files": [
+   {
+    "filename": "eeg.fdt",
+    "id": "fdt",
+    "required": true
+   },
+   {
+    "filename": "eeg.set",
+    "id": "set",
+    "required": true
+   },
+   {
+    "filename": "channels.tsv",
+    "id": "channels",
+    "required": false
+   },
+   {
+    "filename": "electrodes.tsv",
+    "id": "electrodes",
+    "required": false
+   },
+   {
+    "filename": "coordsystem.json",
+    "id": "coordsystem",
+    "required": false
+   },
+   {
+    "filename": "events.tsv",
+    "id": "events",
+    "required": false
+   },
+   {
+    "filename": "events.json",
+    "id": "events_json",
+    "required": false
+   },
+   {
+    "filename": "eeg.json",
+    "id": "eeg_json",
+    "required": false
+   }
+  ],
+  "name": "neuro/eeg/eeglab"
+ },
+ "600074f6aacf9e7acda691d7": {
+  "files": [
+   {
+    "filename": "eeg.edf",
+    "id": "edf",
+    "required": true
+   },
+   {
+    "filename": "channels.tsv",
+    "id": "channels",
+    "required": false
+   },
+   {
+    "filename": "electrodes.tsv",
+    "id": "electrodes",
+    "required": false
+   },
+   {
+    "filename": "coordsystem.json",
+    "id": "coordsystem",
+    "required": false
+   },
+   {
+    "filename": "events.tsv",
+    "id": "events",
+    "required": false
+   },
+   {
+    "filename": "events.json",
+    "id": "events_json",
+    "required": false
+   },
+   {
+    "filename": "eeg.json",
+    "id": "eeg_json",
+    "required": false
+   }
+  ],
+  "name": "neuro/eeg/edf"
+ },
+ "6000753eaacf9e6591a691d9": {
+  "files": [
+   {
+    "filename": "eeg.eeg",
+    "id": "eeg",
+    "required": true
+   },
+   {
+    "filename": "eeg.vhdr",
+    "id": "vhdr",
+    "required": true
+   },
+   {
+    "filename": "eeg.vmrk",
+    "id": "vmrk",
+    "required": true
+   },
+   {
+    "filename": "channels.tsv",
+    "id": "channels",
+    "required": false
+   },
+   {
+    "filename": "electrodes.tsv",
+    "id": "electrodes",
+    "required": false
+   },
+   {
+    "filename": "coordsystem.json",
+    "id": "coordsystem",
+    "required": false
+   },
+   {
+    "filename": "events.tsv",
+    "id": "events",
+    "required": false
+   },
+   {
+    "filename": "events.json",
+    "id": "events_json",
+    "required": false
+   },
+   {
+    "filename": "eeg.json",
+    "id": "eeg_json",
+    "required": false
+   }
+  ],
+  "name": "neuro/eeg/brainvision"
+ },
+ "60007567aacf9e1615a691dd": {
+  "files": [
+   {
+    "filename": "eeg.bdf",
+    "id": "bdf",
+    "required": true
+   },
+   {
+    "filename": "channels.tsv",
+    "id": "channels",
+    "required": false
+   },
+   {
+    "filename": "electrodes.tsv",
+    "id": "electrodes",
+    "required": false
+   },
+   {
+    "filename": "coordsystem.json",
+    "id": "coordsystem",
+    "required": false
+   },
+   {
+    "filename": "events.tsv",
+    "id": "events",
+    "required": false
+   },
+   {
+    "filename": "events.json",
+    "id": "events_json",
+    "required": false
+   },
+   {
+    "filename": "eeg.json",
+    "id": "eeg_json",
+    "required": false
+   }
+  ],
+  "name": "neuro/eeg/bdf"
+ },
+ "604976b3ebfe45c4633ae3d2": {
+  "files": [
+   {
+    "filename": "microperimetry.tsv",
+    "id": "microperimetry",
+    "required": true
+   }
+  ],
+  "name": "neuro/microperimetry"
+ },
+ "604a4553ebfe4559de3af944": {
+  "files": [
+   {
+    "filename": "timeseries.tsv.gz",
+    "id": "tsv",
+    "required": true
+   },
+   {
+    "filename": "timeseries.json",
+    "id": "json",
+    "required": true
+   }
+  ],
+  "name": "generic/timeseries"
+ },
+ "606345ade4a8347b6f337de4": {
+  "files": [
+   {
+    "filename": "index.csv",
+    "id": "index",
+    "required": true
+   },
+   {
+    "filename": "names.csv",
+    "id": "names",
+    "required": true
+   }
+  ],
+  "name": "neuro/labels"
+ },
+ "60634f0de4a8347569337f97": {
+  "files": [
+   {
+    "filename": "mag.inv1.nii.gz",
+    "id": "mag_inv1",
+    "required": true
+   },
+   {
+    "filename": "phase.inv1.nii.gz",
+    "id": "phase_inv1",
+    "required": false
+   },
+   {
+    "filename": "mag.inv2.nii.gz",
+    "id": "mag_inv2",
+    "required": true
+   },
+   {
+    "filename": "phase.inv2.nii.gz",
+    "id": "phase_inv2",
+    "required": false
+   },
+   {
+    "filename": "unit1.nii.gz",
+    "id": "unit1",
+    "required": false
+   },
+   {
+    "filename": "mag.inv1.json",
+    "id": "mag_inv1_json",
+    "required": false
+   },
+   {
+    "filename": "phase.inv1.json",
+    "id": "phase_inv1_json",
+    "required": false
+   },
+   {
+    "filename": "mag.inv2.json",
+    "id": "mag_inv2_json",
+    "required": false
+   },
+   {
+    "filename": "phase.inv2.json",
+    "id": "phase_inv2_json",
+    "required": false
+   },
+   {
+    "filename": "unit1.json",
+    "id": "unit1_json",
+    "required": false
+   }
+  ],
+  "name": "neuro/anat/mp2rage"
+ },
+ "6079f960f1481a4d788fba3e": {
+  "files": [
+   {
+    "dirname": "notebook",
+    "id": "notebook",
+    "required": true
+   }
+  ],
+  "name": "jupyter/notebook"
+ },
+ "608195ce89df435fd26893c1": {
+  "files": [
+   {
+    "filename": "channels.tsv",
+    "id": "channels",
+    "required": false
+   },
+   {
+    "filename": "headshape.pos",
+    "id": "headshape",
+    "required": false
+   },
+   {
+    "filename": "destination.fif",
+    "id": "destination",
+    "required": false
+   },
+   {
+    "filename": "events.tsv",
+    "id": "events",
+    "required": false
+   },
+   {
+    "filename": "events.json",
+    "id": "events_json",
+    "required": false
+   },
+   {
+    "filename": "info.txt",
+    "id": "info",
+    "required": false
+   }
+  ],
+  "name": "neuro/meg/fif-override"
+ },
+ "608ac8b089df43e33c758fa1": {
+  "files": [
+   {
+    "filename": "T1.nii.gz",
+    "id": "T1map",
+    "required": false
+   },
+   {
+    "filename": "T1.json",
+    "id": "T1map_json",
+    "required": false
+   },
+   {
+    "filename": "R1.nii.gz",
+    "id": "R1map",
+    "required": false
+   },
+   {
+    "filename": "R1.json",
+    "id": "R1map_json",
+    "required": false
+   },
+   {
+    "filename": "M0.nii.gz",
+    "id": "M0map",
+    "required": false
+   },
+   {
+    "filename": "M0.json",
+    "id": "M0map_json",
+    "required": false
+   },
+   {
+    "filename": "PD.nii.gz",
+    "id": "PD",
+    "required": false
+   },
+   {
+    "filename": "MTV.nii.gz",
+    "id": "MTV",
+    "required": false
+   },
+   {
+    "filename": "VIP.nii.gz",
+    "id": "VIP",
+    "required": false
+   },
+   {
+    "filename": "SIR.nii.gz",
+    "id": "SIR",
+    "required": false
+   },
+   {
+    "filename": "WF.nii.gz",
+    "id": "WF",
+    "required": false
+   },
+   {
+    "filename": "R2star.nii.gz",
+    "id": "R2star",
+    "required": false
+   },
+   {
+    "filename": "T2star.nii.gz",
+    "id": "T2star",
+    "required": false
+   },
+   {
+    "filename": "PD.json",
+    "id": "PD_json",
+    "required": false
+   },
+   {
+    "filename": "MTV.json",
+    "id": "MTV_json",
+    "required": false
+   },
+   {
+    "filename": "R2star.json",
+    "id": "R2star_json",
+    "required": false
+   },
+   {
+    "filename": "T2star.json",
+    "id": "T2star_json",
+    "required": false
+   }
+  ],
+  "name": "neuro/anat/qmri"
+ },
+ "60c7669e7657d98fe5e128b1": {
+  "files": [
+   {
+    "filename": "psd.tsv",
+    "id": "psd",
+    "required": true
+   }
+  ],
+  "name": "neuro/meeg/psd"
+ },
+ "60ca4e7e8b8b725ea44295bc": {
+  "files": [
+   {
+    "filename": "snr.nii.gz",
+    "id": "snr",
+    "required": true
+   }
+  ],
+  "name": "neuro/snr"
+ },
+ "60ca4f058b8b7238324295d3": {
+  "files": [
+   {
+    "filename": "snr.csv",
+    "id": "snr",
+    "required": true
+   }
+  ],
+  "name": "neuro/snr-stats"
+ },
+ "60d497eecdfdb58f46ffdc45": {
+  "files": [
+   {
+    "filename": "asl.nii.gz",
+    "id": "asl",
+    "required": true
+   },
+   {
+    "filename": "aslcontext.tsv",
+    "id": "context",
+    "required": false
+   },
+   {
+    "filename": "m0scan.nii.gz",
+    "id": "m0scan",
+    "required": false
+   },
+   {
+    "filename": "m0scan.json",
+    "id": "m0scan_json",
+    "required": false
+   },
+   {
+    "filename": "asllabeling.jpg",
+    "id": "asllabeling",
+    "required": false
+   }
+  ],
+  "name": "neuro/perf/ASL"
+ },
+ "60f69321b991113f21b4fdf6": {
+  "files": [
+   {
+    "filename": "map.nii.gz",
+    "id": "map",
+    "required": true
+   }
+  ],
+  "name": "neuro/reho"
+ },
+ "61151f8ca5a04c1ad3f9a2d1": {
+  "files": [
+   {
+    "filename": "some.csv",
+    "id": "tbd",
+    "required": true
+   }
+  ],
+  "name": "neuro/SNR_and_dMRI_stats"
+ },
+ "6123cffd2301763fddd57054": {
+  "files": [
+   {
+    "filename": "maps",
+    "id": "maps",
+    "required": true
+   }
+  ],
+  "name": "neuro/maps"
+ },
+ "6174c1ba4fd85c74b153fddd": {
+  "files": [
+   {
+    "filename": "left.gii",
+    "id": "left",
+    "required": true
+   },
+   {
+    "filename": "right.gii",
+    "id": "right",
+    "required": true
+   },
+   {
+    "filename": "label.json",
+    "id": "label",
+    "required": false
+   }
+  ],
+  "name": "neuro/surface/gradient"
+ },
+ "61797fc39538685e5db952b0": {
+  "files": [
+   {
+    "filename": "meg-epo.fif",
+    "id": "epo",
+    "required": true
+   }
+  ],
+  "name": "neuro/meeg/mne/epochs"
+ },
+ "61893398e8be76b34cb9826e": {
+  "files": [
+   {
+    "filename": "raw.fif",
+    "id": "mne",
+    "required": true
+   }
+  ],
+  "name": "neuro/meeg/mne/raw"
+ },
+ "61a4e7d709959fabbdcef50c": {
+  "files": [
+   {
+    "filename": "headshape.pos",
+    "id": "headshape",
+    "required": false
+   },
+   {
+    "dirname": "meg",
+    "id": "meg",
+    "required": true
+   },
+   {
+    "filename": "scans.tsv",
+    "id": "scans",
+    "required": false
+   },
+   {
+    "filename": "meg.json",
+    "id": "meg_json",
+    "required": false
+   },
+   {
+    "filename": "channels.tsv",
+    "id": "channels",
+    "required": false
+   },
+   {
+    "filename": "coordsystem.json",
+    "id": "coordsystem",
+    "required": false
+   },
+   {
+    "filename": "events.tsv",
+    "id": "events",
+    "required": false
+   }
+  ],
+  "name": "neuro/meg/BTi4D"
+ },
+ "61b1867f7577fd30683bcaf5": {
+  "files": [
+   {
+    "filename": "track.trx",
+    "id": "track",
+    "required": true
+   }
+  ],
+  "name": "neuro/track/trx"
+ },
+ "61e8834d33cb3deb49960f3c": {
+  "files": [
+   {
+    "dirname": "output",
+    "id": "output",
+    "required": true
+   }
+  ],
+  "name": "neuro/hcp/abcd-fmri"
+ },
+ "622138875d8ab5d5f0212b05": {
+  "files": [
+   {
+    "dirname": "bedpostx",
+    "id": "bedpostx",
+    "required": true
+   }
+  ],
+  "name": "neuro/FSLBedpostX"
+ },
+ "62618e2afdf0b815e4ba5372": {
+  "files": [
+   {
+    "filename": "warp.h5",
+    "id": "warp",
+    "required": true
+   },
+   {
+    "filename": "inverse-warp.h5",
+    "id": "inverse-warp",
+    "required": true
+   },
+   {
+    "filename": "affine.txt",
+    "id": "affine",
+    "required": true
+   }
+  ],
+  "name": "neuro/transform/h5"
+ },
+ "6283e7e9d0697cf1eade9bda": {
+  "files": [
+   {
+    "filename": "proj.fif",
+    "id": "projection",
+    "required": true
+   }
+  ],
+  "name": "neuro/meeg/mne/projection"
+ },
+ "6283e821d0697cf1eade9d5c": {
+  "files": [
+   {
+    "filename": "ica.fif",
+    "id": "ica",
+    "required": true
+   }
+  ],
+  "name": "neuro/meeg/mne/ica"
+ },
+ "6283e916d0697cf1eadea5a3": {
+  "files": [
+   {
+    "filename": "fwd.fif",
+    "id": "forward",
+    "required": true
+   },
+   {
+    "filename": "inv.fif",
+    "id": "inverse",
+    "required": false
+   }
+  ],
+  "name": "neuro/meeg/mne/forward-inverse"
+ },
+ "62b03ee2ab3e66978064ed79": {
+  "files": [
+   {
+    "filename": "qsm.nii",
+    "id": "qsm",
+    "required": false
+   },
+   {
+    "filename": "qsm.json",
+    "id": "qsm_json",
+    "required": false
+   }
+  ],
+  "name": "neuro/qsm"
+ },
+ "630d072219b13f0a0ee3cd15": {
+  "files": [
+   {
+    "filename": "nodif_brain_mask.nii.gz",
+    "id": "nodif_brain_mask",
+    "required": true
+   },
+   {
+    "filename": "peaks.nii.gz",
+    "id": "peaks",
+    "required": true
+   },
+   {
+    "dirname": "bundle_segmentations",
+    "id": "bundle_segmentations",
+    "required": true
+   },
+   {
+    "dirname": "endings_segmentations",
+    "id": "endings_segmentations",
+    "required": true
+   },
+   {
+    "dirname": "TOM",
+    "id": "TOM",
+    "required": true
+   },
+   {
+    "dirname": "TOM_trackings",
+    "id": "TOM_trackings",
+    "required": true
+   },
+   {
+    "filename": "Tractometry_peaks.csv",
+    "id": "Tractometry_peaks",
+    "required": false
+   }
+  ],
+  "name": "neuro/tractseg"
+ },
+ "6376c8aece8953d657da0fb9": {
+  "files": [
+   {
+    "filename": "sphmean.nii.gz",
+    "id": "sphmean",
+    "required": true
+   }
+  ],
+  "name": "neuro/spherical-mean"
+ },
+ "643d6076d391caf6efbc2cee": {
+  "files": [
+   {
+    "filename": "events.tsv",
+    "id": "events",
+    "required": true
+   },
+   {
+    "filename": "events.json",
+    "id": "events_json",
+    "required": false
+   },
+   {
+    "filename": "events.csv",
+    "id": "events_csv",
+    "required": false
+   }
+  ],
+  "name": "neuro/func/events"
+ },
+ "64640a72d391caf6ef169dc7": {
+  "files": [
+   {
+    "dirname": "fmriprep",
+    "id": "fmriprep",
+    "required": true
+   }
+  ],
+  "name": "neuro/fmriprep"
+ },
+ "64758dd3d391caf6ef33ab4a": {
+  "files": [
+   {
+    "dirname": "networks",
+    "id": "networks",
+    "required": true
+   }
+  ],
+  "name": "generic/networks"
+ },
+ "6478dad979d13f6418e31932": {
+  "files": [
+   {
+    "dirname": "net-stats",
+    "id": "net-stats",
+    "required": true
+   }
+  ],
+  "name": "neuro/net-stats"
+ },
+ "6478dee979d13f6418e34ca8": {
+  "files": [
+   {
+    "dirname": "conmats",
+    "id": "conmats",
+    "required": true
+   }
+  ],
+  "name": "neuro/conmats"
+ },
+ "64792b1c79d13f6418e4fb75": {
+  "files": [
+   {
+    "filename": "t2starw.nii",
+    "id": "t2starw",
+    "required": true
+   }
+  ],
+  "name": "neuro/anat/t2starw"
+ },
+ "654dc862b094062da631217d": {
+  "files": [
+   {
+    "filename": "fgtair.nii.gz",
+    "id": "fgtair",
+    "required": true
+   }
+  ],
+  "name": "neuro/fgtair"
+ },
+ "65a9a59b4ce5ac2907f02994": {
+  "files": [
+   {
+    "dirname": "contrast-stats",
+    "id": "contrast-stats",
+    "required": true
+   }
+  ],
+  "name": "neuro/contrast-stats"
+ },
+ "65ce3b74eab7bb5c3c96e3ae": {
+  "files": [
+   {
+    "filename": "annotation.fif",
+    "id": "annot",
+    "required": true
+   }
+  ],
+  "name": "neuro/meeg/mne/raw/annotation"
+ },
+ "65fe0a4ee6256cac94a94de9": {
+  "files": [
+   {
+    "filename": "inv-rh.stc",
+    "id": "stc-rh",
+    "required": true
+   },
+   {
+    "filename": "inv-lh.stc",
+    "id": "stc-lh",
+    "required": true
+   }
+  ],
+  "name": "neuro/meeg/stc"
+ },
+ "6668838b829dd9abdbba0338": {
+  "files": [
+   {
+    "filename": "ch1.mat",
+    "id": "ch1",
+    "required": false
+   },
+   {
+    "filename": "ch2.mat",
+    "id": "ch2",
+    "required": false
+   },
+   {
+    "filename": "retartance.mat",
+    "id": "retardance",
+    "required": false
+   }
+  ],
+  "name": "neuro/ps-oct"
+ },
+ "66e58020774d6f044dcf5afc": {
+  "files": [
+   {
+    "filename": "trans.fif",
+    "id": "trans",
+    "required": true
+   }
+  ],
+  "name": "neuro/meeg/mne/trans"
+ },
+ "67366373ff1a4a439d7fd7f4": {
+  "files": [
+   {
+    "filename": "pet.nii.gz",
+    "id": "pet_nii",
+    "required": false
+   },
+   {
+    "filename": "blood.tsv",
+    "id": "blood_tsv",
+    "required": false
+   },
+   {
+    "filename": "pet.json",
+    "id": "pet_json",
+    "required": false
+   },
+   {
+    "filename": "blood.json",
+    "id": "blood_json",
+    "required": false
+   }
+  ],
+  "name": "neuro/pet"
+ },
+ "673667d6ff1a4a439d7fe2d0": {
+  "files": [
+   {
+    "filename": "map.nii.gz",
+    "id": "map",
+    "required": true
+   }
+  ],
+  "name": "neuro/phase-quality"
+ },
+ "681238fcda629ed3b169d916": {
+  "files": [
+   {
+    "dirname": "zarr",
+    "id": "zarr",
+    "required": false
+   },
+   {
+    "filename": "tif",
+    "id": "tif",
+    "required": false
+   }
+  ],
+  "name": "neuro/tract-tracing"
+ },
+ "68dc0642f9e4ee316ef66c03": {
+  "files": [
+   {
+    "filename": "tif",
+    "id": "tif",
+    "required": true
+   },
+   {
+    "filename": "tif.json",
+    "id": "json",
+    "required": false
+   }
+  ],
+  "name": "tif"
+ },
+ "68dc181cf9e4ee316ef6eea9": {
+  "files": [
+   {
+    "filename": "info",
+    "id": "info",
+    "required": true
+   }
+  ],
+  "name": "neuro/precomputed/volume"
+ },
+ "68dc1b1df9e4ee316ef70d5f": {
+  "files": [
+   {
+    "dirname": "data/",
+    "id": "mesh",
+    "required": true
+   }
+  ],
+  "name": "neuro/precomputed/mesh"
+ },
+ "68dc5b50f9e4ee316ef8abd3": {
+  "files": [
+   {
+    "filename": "zarr.json",
+    "id": "zarr-json",
+    "required": true
+   }
+  ],
+  "name": "zarr v3"
+ },
+ "69f24b375e3b9b921dc25e49": {
+  "files": [
+   {
+    "filename": "data.nwb",
+    "id": "nwb",
+    "required": true
+   }
+  ],
+  "name": "neuro/nwb"
+ },
+ "6a99e5d7d90f157078ed790c": {
+  "files": [
+   {
+    "dirname": "data.ome.zarr",
+    "id": "zarr",
+    "required": true
+   },
+   {
+    "filename": "image.json",
+    "id": "json",
+    "required": false
+   }
+  ],
+  "name": "neuro/ome-zarr"
+ },
+ "6aa1c3da87d45c3b2da10ea6": {
+  "files": [
+   {
+    "dirname": "channel",
+    "id": "channel",
+    "required": true
+   }
+  ],
+  "name": "neuro/bossdb"
+ },
+ "6aa8337984691735460b6f28": {
+  "files": [],
+  "name": "neuro/fake"
+ },
+ "6aa8343384691735460b7609": {
+  "files": [],
+  "name": "neuro/test_datatype"
+ },
+ "6aa856c784691735460e3bc4": {
+  "files": [
+   {
+    "dirname": "vectors.zarrvectors",
+    "id": "store",
+    "required": true
+   }
+  ],
+  "name": "neuro/track/zarr-vectors"
+ },
+ "6aa992dfdeee1367b435f3b8": {
+  "files": [
+   {
+    "filename": "metrics.json",
+    "id": "metrics",
+    "required": true
+   }
+  ],
+  "name": "neuro/seg-eval-metrics"
+ },
+ "6aa9adfadeee1367b4395c3a": {
+  "files": [
+   {
+    "filename": "volume.tif",
+    "id": "tif",
+    "required": true
+   }
+  ],
+  "name": "neuro/tiff-volume"
+ },
+ "6aa9af7fdeee1367b4399845": {
+  "files": [
+   {
+    "filename": "image.nii.gz",
+    "id": "image",
+    "required": true
+   }
+  ],
+  "name": "neuro/microscopy/nifti"
+ },
+ "6ac57cd6c004e522d21b16e1": {
+  "files": [
+   {
+    "dirname": "test_dir",
+    "id": "test",
+    "required": true
+   },
+   {
+    "filename": "test.nii.gz",
+    "id": "test1",
+    "required": true
+   }
+  ],
+  "name": "neuro/test"
+ },
+ "6ac6be2ac004e522d223b00b": {
+  "files": [],
+  "name": "test2"
+ },
+ "6ada73fa1e6d29036a18edcc": {
+  "files": [
+   {
+    "filename": "aggregate.json",
+    "id": "aggregate",
+    "required": true
+   }
+  ],
+  "name": "neuro/seg-eval-metric-agg"
+ }
+}
