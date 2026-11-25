@@ -8,8 +8,8 @@ them into `output/` for the archiver, and reports errors (which stop the upload)
 (which are shown but let it through). Until now 116 of 140 datatypes had no validator, so their
 uploads were archived unchecked and could not be made through the web UI.
 
-This App validates any datatype from its file list in the
-datatype catalog (private repo `brainlife/datatype-catalog`). Datatypes that
+This App validates any datatype from its list of files, taken from the brainlife.io datatype
+catalog (maintained by the brainlife.io team). Datatypes that
 already have a dedicated validator (for example `brainlife/validator-neuro-anat`) keep it.
 
 ## What it checks
@@ -77,4 +77,4 @@ pytest -q tests
 
 ## Design
 
-`docs/superpowers/specs/2026-11-25-catalog-validator-design.md` in `brainlife/datatype-catalog`.
+Kept with the brainlife.io datatype catalog (`docs/superpowers/specs/2026-11-25-catalog-validator-design.md`).
