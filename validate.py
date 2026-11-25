@@ -200,6 +200,11 @@ def run(workdir, rules):
             product["warnings"].append(f"internal validator error on {f['id']}: {e!r}")
             traceback.print_exc()
         _link(uploaded[f["id"]], target)
+    known = {f["id"] for f in files}
+    for fid, path in uploaded.items():
+        if fid not in known:  # e.g. a file added on brainlife.io after rules.json was generated
+            product["warnings"].append(f"{fid} is not in the catalog rules for this datatype; linked unchecked")
+            _link(path, os.path.basename(path))
     try:
         product["warnings"] += _consistency(results)
     except Exception as e:

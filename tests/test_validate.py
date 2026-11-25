@@ -170,3 +170,14 @@ def test_format_comes_from_the_file_name_when_rules_omit_it(tmp_path):
     work = _upload(tmp_path)
     (tmp_path / "task" / "upload" / "dwi.bvals").write_text("not numbers")
     assert any("dwi.bvals" in e for e in validate.run(work, rules)["errors"])
+
+
+def test_uploaded_file_missing_from_rules_is_still_linked(tmp_path):
+    work = _upload(tmp_path)
+    write(tmp_path / "task" / "upload", "extra.txt", "x")
+    config = json.loads((work / "config.json").read_text())
+    config["extra"] = "../task/upload/extra.txt"
+    (work / "config.json").write_text(json.dumps(config))
+    product = validate.run(work, RULES)
+    assert os.path.islink(work / "output" / "extra.txt")
+    assert any("extra" in w for w in product["warnings"])
