@@ -9,7 +9,7 @@ them into `output/` for the archiver, and reports errors (which stop the upload)
 uploads were archived unchecked and could not be made through the web UI.
 
 This App validates any datatype from its file list in the
-[datatype catalog](https://github.com/brainlife/abcd-spec/tree/master/datatypes). Datatypes that
+datatype catalog (private repo `brainlife/datatype-catalog`). Datatypes that
 already have a dedicated validator (for example `brainlife/validator-neuro-anat`) keep it.
 
 ## What it checks
@@ -46,7 +46,7 @@ Metadata, tags and datatype tags given at upload are passed through unchanged.
   generated from the catalog, never edited by hand:
 
   ```
-  cd abcd-spec
+  cd datatype-catalog
   python tools/bldt.py validator-rules ../validator-catalog/rules.json
   ```
 
@@ -77,5 +77,4 @@ pytest -q tests
 
 ## Design
 
-[`docs/superpowers/specs/2026-11-25-catalog-validator-design.md`](https://github.com/brainlife/abcd-spec/blob/master/docs/superpowers/specs/2026-11-25-catalog-validator-design.md)
-in abcd-spec.
+`docs/superpowers/specs/2026-11-25-catalog-validator-design.md` in `brainlife/datatype-catalog`.

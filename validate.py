@@ -6,8 +6,8 @@ Run by brainlife in the validator task directory:
     validate.py [--rules rules.json]
 
 Reads config.json (file id -> uploaded path; _outputs[0] holds the datatype id, tags and meta),
-checks each file against the datatype's file list (rules.json, generated from the abcd-spec
-datatype catalog; formats come from the file names),
+checks each file against the datatype's file list (rules.json, generated from the
+brainlife/datatype-catalog repo; formats come from the file names),
 links every file into output/, and writes product.json. Errors fail the upload: a required file
 missing, or a file that is unreadable or not in its format. Everything else is a warning. A bug
 in this script never blocks an upload: it becomes a warning and the files are still linked.
